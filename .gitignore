@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Testing
+coverage/
+.nyc_output/
+
+# Social media pipeline specific
+config/secrets.json
+uploads/
+temp/
+.cache/
+
+# Python (if applicable)
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.cursor
+.bmad-core/

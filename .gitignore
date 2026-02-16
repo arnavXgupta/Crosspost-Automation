@@ -47,3 +47,7 @@ __pycache__/
 
 .cursor
 .bmad-core/
+
+# Plan files
+*.plan.md
+*plan*.md

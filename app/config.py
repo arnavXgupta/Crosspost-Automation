@@ -18,7 +18,7 @@ class Settings(BaseSettings):
 
     # Gemini (Twitter content generation)
     gemini_api_key: str | None = Field(default=None, alias="GEMINI_API_KEY")
-    gemini_model: str = Field(default="gemini-1.5-flash", alias="GEMINI_MODEL")
+    gemini_model: str = Field(default="gemini-2.5-flash", alias="GEMINI_MODEL")
 
     # Composio (Twitter publishing)
     composio_api_key: str | None = Field(default=None, alias="COMPOSIO_API_KEY")
